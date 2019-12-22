@@ -34,6 +34,16 @@ Specify your API key in the application manifest `android/app/src/main/AndroidMa
                android:value="YOUR KEY HERE"/>
 ```
 
+You'll likely need to enable multidex for your app.  In `android/app/build.gradle`
+
+```gradle
+  android {
+    defaultConfig {
++     multiDexEnabled true
+    }
+  }
+```
+
 ### iOS
 
 Specify your API key in the application delegate `ios/Runner/AppDelegate.m`:
