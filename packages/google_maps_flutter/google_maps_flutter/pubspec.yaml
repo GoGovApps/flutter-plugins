@@ -9,7 +9,11 @@ dependencies:
     sdk: flutter
   collection: ^1.14.11
   flutter_plugin_android_lifecycle: ^1.0.0
-  google_maps_flutter_platform_interface: ^1.0.2
+  google_maps_flutter_platform_interface:
+    git:
+      url: git://github.com/gogovapps/plugins.git
+      ref: polygon_holes
+      path: packages/google_maps_flutter/google_maps_flutter_platform_interface
 
 dev_dependencies:
   flutter_test:
