@@ -7,7 +7,7 @@ package io.flutter.plugins.googlemaps;
 import android.app.Application;
 import android.content.Context;
 import androidx.lifecycle.Lifecycle;
-import com.google.android.gms.maps.model.CameraPosition;
+import com.google.android.libraries.maps.model.CameraPosition;
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugin.common.StandardMessageCodec;
