@@ -1,3 +1,7 @@
+## 0.5.29
+
+* Add support for holes in Polygons.
+
 ## 0.5.28+2
 
 * Move test introduced in #2449 to its right location.
