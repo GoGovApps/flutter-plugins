@@ -3,8 +3,8 @@ package io.flutter.plugins.googlemaps;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.spy;
 
-import com.google.android.gms.internal.maps.zzw;
-import com.google.android.gms.maps.model.Polygon;
+import com.google.android.libraries.internal.maps.zzw;
+import com.google.android.libraries.maps.model.Polygon;
 import org.junit.Test;
 import org.mockito.Mockito;
 

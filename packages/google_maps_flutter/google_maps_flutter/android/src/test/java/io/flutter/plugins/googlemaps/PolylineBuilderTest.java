@@ -2,7 +2,7 @@ package io.flutter.plugins.googlemaps;
 
 import static junit.framework.TestCase.assertEquals;
 
-import com.google.android.gms.maps.model.PolylineOptions;
+import com.google.android.libraries.maps.model.PolylineOptions;
 import org.junit.Test;
 
 public class PolylineBuilderTest {
